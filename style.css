@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #076585;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b9c2e7, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b9c2e7, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left h2{
+    font-weight: 400px;
+    color: #076585;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.txt-input {
+    height: 140px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:focus{
+    border: 2px solid #076585
+}
+
+.txt-input:focus{
+    border: 2px solid #076585;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #076585;
+    color: white;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
